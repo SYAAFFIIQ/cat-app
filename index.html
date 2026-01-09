@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paws & Preferences</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- COUNTER -->
+  <div id="counter">❤️ Liked: <span id="likeCount">0</span></div>
+
+  <!-- CARD -->
+  <div id="card">
+    <div id="like" class="overlay">LIKE ❤️</div>
+    <div id="dislike" class="overlay">NOPE ❌</div>
+  </div>
+
+  <!-- SUMMARY PAGE -->
+  <div id="summary" class="hidden">
+    <h2>You liked <span id="finalCount"></span> cats 😺</h2>
+    <div id="likedGallery"></div>
+    <button onclick="restart()">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
